@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvBookingId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Booking ID"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvBookingDates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dates"/>
+
+    <TextView
+        android:id="@+id/tvBookingAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"/>
+
+    <TextView
+        android:id="@+id/tvBookingPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone"/>
+
+    <TextView
+        android:id="@+id/tvBookingUserId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User ID"/>
+</LinearLayout>
